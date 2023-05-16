@@ -74,6 +74,7 @@ Versions at the time of project upload:
    - npm install express-generator -g
    - cd desktop
    - express --view=pug projectName
+   - to install html as frontend engine > express --view=ejs projectName
    - cd projectName
    - npm install
    - npm start <br/>
