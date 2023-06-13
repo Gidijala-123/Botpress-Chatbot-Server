@@ -123,12 +123,11 @@ Versions at the time of project upload:
 	  v12.28.0\modules\channel-web\assets\web\lite.bundle.js search for link
       react_1.default.createElement(
        'a',
-       { href: 'https://spinebiz.com', target: '_blank' },
+       { href: 'https://botpress.com', target: '_blank' },
        'botpress'
       )		
 	  
-	  and change text from botpress to Spinebiz you can hide this from css file
-
+    change href from 'https://botpress.com' to 'https://spinebiz.com', change text from botpress to Spinebiz(you can hide this from css file)
 	  and search for "footer.poweredBy": in the same folder and change the name accordingly
 					
     - Alerting in chatbot
