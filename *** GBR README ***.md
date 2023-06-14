@@ -200,6 +200,7 @@ Versions at the time of project upload:
   - If any new/existing module got corrupted, remove it from npm by using the command "npm uninstall <module name>", Don't restart botpress by typing "yarn start", Type "npm i" to install fresh modules/packages, Yarn will automatically build required packages, Once installed check by typing "yarn start" <br/>
   - Showing text in studio as developer mode eg: studio.admin.login for login text, To resolve this issure jst press "ctrl+q" from your chrome window, Try resetting the chrome setting if the issue not solved
   - The engine "node" is incompatible with this module. Expected version "^12.20.0 || >=14". Got "12.18.1". Type this command in terminal "yarn install --ignore-engines"
+  - After making changes in admin panel code panel, click on gear icon present at bottom-right to restart the server & to reflect the changes
   
   
 ### XI. To hide left side menu in studio press ctrl+b, do the same to unhide it
